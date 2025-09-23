@@ -10,5 +10,5 @@ function twoSum(nums, target) {
   }
 }
 nums = [2, 7, 11, 15];
-target = 13;
+target = 9;
 console.log("Two Sum", twoSum(nums, target));
