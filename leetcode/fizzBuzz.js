@@ -13,9 +13,9 @@ var fizzBuzz = function (n) {
       array.push("FizzBuzz");
       continue;
     }
-    stri = i.toString();
-    array.push(stri);
+
+    array.push(i.toString());
   }
   return array;
 };
-// console.log("fizzBuzz", fizzBuzz(15));
+console.log("fizzBuzz", fizzBuzz(15));
